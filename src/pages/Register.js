@@ -43,7 +43,7 @@ const Register = () => {
                                         localStorage.setItem("token", token)
                                         setAuthToken(token)
                                         if (token) navigate("/home")
-                                      })
+                                    })
                                 }}
                             >
                                 {({ handleSubmit, handleChange, values, errors }) => (
